@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_height="fill_parent"
+
+    android:layout_width="fill_parent">
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:text="Habillement"
+
+            />
+        <View
+
+            android:layout_height="2dip"
+            android:background="@color/colorPrimary"
+
+            />
+    </TableRow>
+
+    <TableRow>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/robe1"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/botte1"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/longmanche"
+        android:paddingTop="20dp"
+        />
+</TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:text="Accessoires"
+
+            />
+        <View
+
+            android:layout_height="2dip"
+            android:background="@color/colorPrimary"
+
+            />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/portable"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/montre"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/braceller"
+            android:paddingTop="20dp"
+            />
+    </TableRow>
+
+</TableLayout>
