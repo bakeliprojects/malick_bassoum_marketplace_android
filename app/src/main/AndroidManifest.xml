@@ -8,7 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name=".activities.BaseApplication"
+        >
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/app_name"
@@ -26,11 +28,16 @@
         <activity
             android:name=".activities.RegisterActivity"
             android:label="@string/title_activity_register"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".activities.ProduitActivity">
             android:theme="@style/AppTheme.NoActionBar"
         </activity>
+        <activity android:name=".activities.RobeActivity" />
+        <activity android:name=".activities.BotteActivity" />
+        <activity android:name=".activities.ChemiseActivity" />
+        <activity android:name=".activities.PortableActivity" />
+        <activity android:name=".activities.MontreActivity" />
+        <activity android:name=".activities.BracellerActivity"></activity>
     </application>
 
 </manifest>

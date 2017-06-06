@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:paddingTop="100dp"
+    android:paddingLeft="120dp"
+    android:layout_width="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/botte1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prix:15000FCFA"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GENET/PARASPORT MARRON-NUB SAFRAN Chaussure outdoor randonnée GENET Safran "
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        >
+    <Button
+        android:id="@+id/bBotte"
+        android:text="Ajouter au panier"
+        android:layout_width="250px"
+        android:layout_height="100px"
+
+        />
+    </LinearLayout>
+
+
+
+</LinearLayout>

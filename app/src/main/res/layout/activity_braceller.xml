@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:paddingTop="100dp"
+    android:paddingLeft="120dp"
+    android:layout_width="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bracelet"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prix:4000FCFA"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017 Nouveau Punk Noir En Cuir Anchor Bracelets et Bracelets pour Hommes En Acier Inoxydable Tom"
+        />
+
+    <Button
+        android:id="@+id/bBraceller"
+        android:text="Ajouter au panier"
+        android:layout_width="250px"
+        android:layout_height="100px"
+
+        />
+
+
+
+
+</LinearLayout>

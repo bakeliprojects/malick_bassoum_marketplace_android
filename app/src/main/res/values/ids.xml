@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="item_share" type="id">share</item>
+    <item name="item_delete" type="id">delete</item>
+    <item name="item_produit" type="id">produit</item>
+</resources>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_height="fill_parent"
-
     android:layout_width="fill_parent">
     android:stretchColumns="1">
 
@@ -24,7 +24,8 @@
     </TableRow>
 
     <TableRow>
-    <ImageView
+    <ImageButton
+        android:id="@+id/robe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/robe1"
@@ -34,7 +35,8 @@
 
         />
 
-    <ImageView
+    <ImageButton
+        android:id="@+id/botte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/botte1"
@@ -42,7 +44,8 @@
         android:paddingRight="10dp"
         />
 
-    <ImageView
+    <ImageButton
+        android:id="@+id/chemise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/longmanche"
@@ -67,7 +70,8 @@
     </TableRow>
 
     <TableRow>
-        <ImageView
+        <ImageButton
+            android:id="@+id/portable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/portable"
@@ -77,7 +81,8 @@
             />
 
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/montre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/montre"
@@ -85,10 +90,11 @@
             android:paddingRight="10dp"
             />
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/braceller"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/braceller"
+            android:src="@drawable/bracelet"
             android:paddingTop="20dp"
             />
     </TableRow>

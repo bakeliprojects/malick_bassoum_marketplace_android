@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:paddingTop="100dp"
+    android:paddingLeft="120dp"
+    android:layout_width="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/robe1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="Prix:12500FCFA"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="avender Lace mousseline robes de soirée 2016 Arabe col haut Robes Sheer Ouvrir Retour longues Robes de bal Robes de fête BA1641
+Vente En Gros Lavender Lace Mousseline Robes De Soirée 2016 Arabe Col Haut Robes Sheer Ouvrir Retour Longues Robes De Bal Robes De Fête Ba1641 De Bestdeals À $135.51 Sur Fr.Dhgate.Com | Dhgate"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        >
+    <Button
+        android:id="@+id/ajout"
+        android:text="Ajouter au panier"
+        android:layout_width="250px"
+        android:layout_height="100px"
+
+        />
+
+
+</LinearLayout>
+
+</LinearLayout>
